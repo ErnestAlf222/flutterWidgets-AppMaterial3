@@ -47,5 +47,11 @@ const appMenuItems = <MenuItem> [
     link: '/animated', 
     icon: Icons.animation_rounded
   ),
+  MenuItem(
+    title: 'UI Controls', 
+    subTitle: 'Controladores de widgets', 
+    link: '/ui-controls', 
+    icon: Icons.noise_control_off_sharp
+  ),
 
 ];
