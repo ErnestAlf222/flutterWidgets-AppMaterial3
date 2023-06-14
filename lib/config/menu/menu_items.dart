@@ -53,5 +53,11 @@ const appMenuItems = <MenuItem> [
     link: '/ui-controls', 
     icon: Icons.noise_control_off_sharp
   ),
+  MenuItem(
+    title: 'Tutorial', 
+    subTitle: 'Introducción a la app', 
+    link: '/tutorial', 
+    icon: Icons.youtube_searched_for_sharp
+  ),
 
 ];
