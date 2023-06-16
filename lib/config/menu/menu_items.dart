@@ -16,6 +16,12 @@ class MenuItem {
 
 
 const appMenuItems = <MenuItem> [
+  MenuItem(
+    title: 'Contador', 
+    subTitle: 'Contador + y - junstos', 
+    link: '/contar', 
+    icon: Icons.calculate_outlined
+  ),
 
   MenuItem(
     title: 'Botones', 
@@ -58,6 +64,18 @@ const appMenuItems = <MenuItem> [
     subTitle: 'Introducción a la app', 
     link: '/tutorial', 
     icon: Icons.youtube_searched_for_sharp
+  ),
+  MenuItem(
+    title: 'Infinity Scroll', 
+    subTitle: 'Scroll infinito y más', 
+    link: '/infinity', 
+    icon: Icons.medical_information_rounded
+  ),
+  MenuItem(
+    title: 'Theme changed', 
+    subTitle: 'Cambio de los temas', 
+    link: '/theme-changer', 
+    icon: Icons.color_lens_outlined
   ),
 
 ];
